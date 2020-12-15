@@ -1,32 +1,32 @@
 ---
 title: Pychron: Automated Data Collection and Reduction for Noble Gas and Ar/Ar Geochronology
 tags:
-    - python
-    - geochronology
-    - geoscience
-    - noble gas
+  - python
+  - geochronology
+  - geoscience
+  - noble gas
 authors:
-    - name: Jake Ross
-      orcid: 0000-0003-4727-7472
-      affiliation: "1, 2"
-    - name: William McIntosh
-      orcid:
-      affiliation: "1, 2"
-    - name: Matt Heizler
-      orcid:
-      affiliation: "1, 2"
+  - name: Jake Ross
+    orcid: 0000-0003-4727-7472
+    affiliation: "1, 2"
+  - name: William McIntosh
+    orcid:
+    affiliation: "1, 2"
+  - name: Matt Heizler
+    orcid:
+    affiliation: "1, 2"
 affiliations: 
-    - name: New Mexico Bureau of Geology
-      index: 1
-    - name: New Mexico Institute of Mining and Technology
-      index: 2
-date: 12/16/20
+  - name: New Mexico Bureau of Geology
+    index: 1
+  - name: New Mexico Institute of Mining and Technology
+    index: 2
+date: 15 December 2020
+bibliography: paper.bib
+
 ---
 
 
 # Summary
-
-
 
 Pychron is a fully featured, open source, python-based application used for data acquisition and processing in noble gas geochemistry.
 
@@ -36,7 +36,7 @@ The proliferation of inexpensive computing hardware and open source software has
 
 Although software has long been recognized as a critical element of noble gas laboratory infrastructure, little community collaboration currently exists to develop and maintain robust, functional and sustainable software. Many laboratories either lack the full functionality they desire or have unsustainable custom solutions. 
 
-Starting in 2008, Pychron has been under developed at New Mexico Geochronology Research Laboratory, forming the basis for a sustainable software ecosystem for noble gas geochemistry. Pychron is now being used at a growing number of other Ar-Ar geochronology and noble gas laboratories around the world. Written in python, Pychron uses many standard and third party libraries such as numpy, scipy `[@author:2001]`, uncertainties `[@author:2001]`
+Starting in 2008, Pychron has been under developed at New Mexico Geochronology Research Laboratory, forming the basis for a sustainable software ecosystem for noble gas geochemistry. Pychron is now being used at a growing number of other Ar-Ar geochronology and noble gas laboratories around the world. Written in python, Pychron uses many standard and third party libraries such as numpy `[@2020NumPy-Array]`, scipy `[@2020SciPy-NMeth]`, uncertainties `[@lebigot2010uncertainties]`
  for computational aspects and Enthought Tool Suite/Qt for a rich customizable UI. 
 
 Pychron supports single and multi-collector automated real-time data collection with mass spectrometers from both Thermo Scientific, Isotopx and Pfeiffer and is readily adapted to other instruments. Legacy data collected using older MAP and Nu instruments is accessible via Pychron. Pychron uses an extensible plugin architecture making it highly configurable and adaptable to various hardware setups. 
@@ -48,17 +48,17 @@ We have always envisioned Pychron as a community-based development project and w
 # Active Laboratories
 Pychron is used at a growing number of noble gas laboratories throughout North America
 New Mexico Geochronology Research Laboratory, New Mexico Bureau of Geology
-University of Manitoba
-WiscAR, University of Wisconsin
-SWIRL, US Geological Survey - Denver
-AGES, Lamont-Doherty Earth Observatory, AGES
-US Geological Survey - Menlo Park
-MNGRL, NASA-Goddard Space Flight Center
-AEL-AMS, Ottawa
-ANGL, University of Arizona
-TAP, Purdue University
-HAL, University of Indiana Urbana-Champaign
+ - University of Manitoba
+ - WiscAR, University of Wisconsin
+ - SWIRL, US Geological Survey - Denver
+ - AGES, Lamont-Doherty Earth Observatory, AGES
+ - US Geological Survey - Menlo Park
+ - MNGRL, NASA-Goddard Space Flight Center
+ - AEL-AMS, Ottawa
+ - ANGL, University of Arizona
+ - TAP, Purdue University
+ - HAL, University of Indiana Urbana-Champaign
 
 
 # Acknowledgement
-The work has been supported by NSF EAR XXXX, the New Mexico Bureau of Geology and Mineral Resources and the New Mexico Geochronology Research Laboratory.  
+The work has been supported by NSF EAR 1460534, the New Mexico Bureau of Geology and Mineral Resources and the New Mexico Geochronology Research Laboratory.  
